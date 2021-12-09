@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>me@mikaela.ca</email>
+		<name>Mikaela Allan</name>
+	</maintainer>
+	<use>
+		<flag name="monitor">Build the Python and GUI dependent monitor applications</flag>
+	</use>
+</pkgmetadata>

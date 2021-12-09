@@ -110,8 +110,8 @@ src_install() {
 	newinitd "${FILESDIR}/ovsdb-server-r1" ovsdb-server
 	newinitd "${FILESDIR}/ovs-vswitchd-r1" ovs-vswitchd
 
-	systemd_newunit "${FILESDIR}/ovsdb-server-r3.service" ovsdb-server.service
-	systemd_newunit "${FILESDIR}/ovs-vswitchd-r3.service" ovs-vswitchd.service
+	systemd_newunit "${FILESDIR}/ovsdb-server-r4.service" ovsdb-server.service
+	systemd_newunit "${FILESDIR}/ovs-vswitchd-r4.service" ovs-vswitchd.service
 	systemd_newunit rhel/usr_lib_systemd_system_ovs-delete-transient-ports.service ovs-delete-transient-ports.service
 	newtmpfiles "${FILESDIR}/openvswitch.tmpfiles" openvswitch.conf
 

@@ -1022,7 +1022,7 @@ SRC_URI="https://github.com/greenpau/cni-plugins/archive/v${PV}.tar.gz -> ${P}.t
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64 ~arm64 ~ppc64"
+KEYWORDS="amd64 arm64 ~ppc64"
 IUSE="hardened"
 
 CONFIG_CHECK="~NF_TABLES"
